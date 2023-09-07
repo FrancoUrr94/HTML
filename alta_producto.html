@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta_deProducto.html</title>
+</head>
+
+<body>
+    <fieldset>
+        <h1><leabel type="color"> Empresa X</leabel></h1>
+    </fieldset>
+    
+    <nav>
+       <p> <a href="Index.html"> Inicio</a> </p>
+            <a href="listado_productos.html">Listado de Productos</a>
+    </nav>
+
+    <h2>Alta de Productos</h2>
+    <fieldset>
+    <label for="Nombre">Nombre</label>
+    <input id="Nombre" type="text"/>
+    <label for="Precio">Precio</label>
+    <input id="Precio" type="number">
+    </fieldset>
+    <fieldset>
+        <label for="Stock">Stock</label>
+        <input id="Stock" type="text">
+        <label for="Stock minimo">Stock minimo</label>
+        <input id="stock minimo" type="number">
+    </fieldset>
+    <fieldset>
+        <label for="Fecha de Alta">Fecha de Alta</label>
+        <input id="Fecha de Alta" type="date" value="2021-08-27">
+        <label for="hora de alta">Hora de Alta</label>
+        <input id="hora de alta" type="time" value="15:58">
+    </fieldset>
+    <fieldset>
+         <img src="images/mouse.webp"  height="100" width="100"> 
+         <leabel for="archivo">imagen</leabel>  
+         <input id="archivo" type="text" placeholder="Seleccionar archivo">No se eligio archivo
+    </fieldset>
+    <fieldset>
+        <leabel>Cuotas sin Interes</leabel>
+        <select> 
+            <option>1</option>
+            <option>3</option>
+            <option>6</option>
+            <option>9</option>
+            <option>12</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <input id="interior" type="radio" name="envios"/>
+        <label for="interior">Nacional</label>
+        <input id="Exterior" type="radio" name="envios" checked/>
+        <label for="Exterior">Importado</label>
+    </fieldset>
+    <fieldset>
+        <label for="envio">Envio gratis</label>
+        <input id="envio" type="checkbox" name="cobranza">
+        <label for="seguro">Garantia</label>
+        <input id="seguro" type="checkbox" name="cobranza" checked>
+    </fieldset> 
+    <fieldset>
+        <textarea placeholder="Observaciones" rows="10" maxlength="100" ></textarea>
+    </fieldset>
+    <fieldset>
+        <footer>
+            <button>Guardar</button>
+        </footer>
+    </fieldset>
+
+</body>
+</html>
